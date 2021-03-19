@@ -144,47 +144,45 @@ header{
   #logo {
     animation-name: none;
   }
-
-  body {
-    background-image: none;
-  }
-
-  nav {
-    width: 100%
-  }
-
-  .nav_links {
-    justify-content: space-evenly;
-  }
-
-  .price {
-    align-items: flex-end;
-  }
-
-  .package {
-    border: 2px solid #45ADAD;
-    flex-basis: 200px;
-  }
-
-  .gallery {
-    display: none;
-  }
   
   }
-
-
-}
 
 
 
 @media print { 
 
   /*Requirement 13*/
+  body {
+    background-image: none;
+  }
+
   /*Requirement 14*/
+  nav {
+    width: 100%
+  }
+
   /*Requirement 15*/
+  .nav_links {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
   /*Requirement 16*/
+  .price {
+    align-items: flex-end;
+  }
+
   /*Requirement 17*/
+  .package {
+    border: 2px solid #45ADAD;
+    flex-basis: 200px;
+  }
+
   /*Requirement 18*/
+  .gallery {
+    display: none;
+  }
+
  
 }
 
